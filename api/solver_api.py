@@ -9,5 +9,3 @@ def solve():
   c = np.matrix("27; 21; 9")
   print(np.matmul(np.linalg.inv(A), c).round(4))
 
-  return float(const[:slash])/float(const[slash+1:])
-
