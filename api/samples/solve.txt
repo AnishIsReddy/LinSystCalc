@@ -1,11 +1,22 @@
+// sample input
 {
-  "count": 3,
+  "vars": 3,
   "coefficients": [
-    7 0 5, 
-    4 3 5,
-    6 1 2
+    "7 1 5", 
+    "4 3 5",
+    "6 1 2"
   ],
-  "constants:": [
-    27, 21, 9,
+  "constants": [
+    "27", "21", "9"
   ]
+}
+
+
+// sample output
+{
+	"solutions": [
+		0.0,
+		-3.0,
+		6.0
+	]
 }
